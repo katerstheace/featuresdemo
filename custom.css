@@ -1,0 +1,114 @@
+body {
+  padding-top: 1rem;
+  font-family: Oxygen, sans-serif;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding-bottom: 0;
+}
+
+.stripe {
+  background-color: rgba(247, 206, 62, 0.4);
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  background-color: rgba(247, 206, 62, 0.8);
+  color: #000;
+}
+
+#blog ul li a {
+  color: #f37d07;
+}
+
+#blog ul li a:hover {
+  color: #f19f4d;
+  font-style: italic;
+}
+
+#blog ul li ul li a {
+  padding-left: 1rem;
+}
+
+#tabs .nav-link,
+.btn-link {
+  color: #f37d07;
+}
+
+#tabs .nav-link:hover,
+.btn-link:hover {
+  color: #f19f4d;
+  font-style: italic;
+}
+
+aside section {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  padding: 1rem 1rem 1.5rem 0.5rem;
+}
+
+section i {
+  padding-right: 1.5rem;
+}
+
+#carousel img {
+  max-height: 40%;
+}
+
+#blog-nav ul > ul > li {
+  padding-right: 1rem;
+}
+
+.card-img-bottom {
+  max-width: 100%;
+}
+
+.img-thumbnail {
+  width: 100%;
+}
+
+#forms .card-img-bottom {
+  max-height: 100%;
+}
+
+footer {
+  min-height: 8rem;
+}
+
+.modal-footer .btn-primary {
+  width: 100%;
+}
+
+/* -------- MEDIA QUERIES --------------- */
+
+/* Everything under BS small size */
+@media (max-width: 575.98px) {
+}
+
+/* Small BS break */
+@media (min-width: 576px) {
+}
+
+/* Medium BS Break */
+@media (min-width: 768) {
+}
+
+/* Large BS Break */
+@media (min-width: 992px) {
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+}
